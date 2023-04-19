@@ -27,7 +27,7 @@
             <p>O projeto WISP é uma aplicação em MicroPython para microcontroladores que permite controlar relés através de uma interface web. Ele utiliza a biblioteca wifimgr para se conectar à rede Wi-Fi e permite o controle dos pinos de saída do microcontrolador para acionar relés.</p>
             <h3>Principais funcionalidades:</h3>
             <ol>
-                <li>Conexão Wi-Fi: A conexão é estabelecida utilizando a biblioteca wifimgr, que gerencia a conexão Wi-Fi do dispositivo.</li>
+                <li>Conexão Wi-Fi: A conexão é estabelecida utilizando a biblioteca wifimgr, que gerencia a conexão Wi-Fi do dispositivo. O IP padrão para acesso ao setup é 192.168.4.1</li>
                                 <li>Gerenciamento de memória: O projeto utiliza gc.collect() e esp.osdebug(None) para otimizar o uso da memória disponível no microcontrolador.</li>
                 <li>Controle dos pinos de saída: O projeto configura os pinos do microcontrolador como saída (output) e permite controlá-los através de requisições HTTP.</li>
                 <li>Leitura de arquivos HTML: A função read_html_file lê um arquivo HTML do sistema de arquivos e retorna seu conteúdo.</li>
