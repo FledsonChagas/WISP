@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Wisp</title>
+    <h1 class="ui-title" role="heading" aria-level="1"><center><a class="ui-link"><img src="https://i.ibb.co/n0FYr7w/WISP-logo-5050png.png" alt="WISP-logo-5050png" border="0"></a></center>     
+       </h1>
     <link rel="icon" type="image/png" href="https://i.ibb.co/4KgLqg4/WISPfavicon.png"/>
     <link href="https://i.ibb.co/rfPgX6r/apple-touch-icon.png" rel="apple-touch-icon" />
     <link href="https://i.ibb.co/QKSDBmF/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
