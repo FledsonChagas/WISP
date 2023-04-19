@@ -23,12 +23,7 @@
         </a>
     </h1>
 </div>
-    <div data-role="page" id="main">
-        <div data-role="header">
-            <h1>Projeto WISP</h1>
-        </div>
          <div data-role="content">
-            <h2>Resumo</h2>
             <p>O projeto WISP é uma aplicação em MicroPython para microcontroladores que permite controlar relés através de uma interface web. Ele utiliza a biblioteca wifimgr para se conectar à rede Wi-Fi e permite o controle dos pinos de saída do microcontrolador para acionar relés.</p>
             <h3>Principais funcionalidades:</h3>
             <ol>
