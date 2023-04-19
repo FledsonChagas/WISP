@@ -34,7 +34,7 @@
                 <li>Manipulação de requisições HTTP: A função handle_request processa as requisições recebidas, verifica se algum comando foi enviado para controlar os relés e define a resposta HTTP a ser enviada.</li>
                 <li>Servidor Web: O projeto utiliza um socket para aceitar conexões e responder às requisições HTTP. Um loop principal aceita conexões, processa as requisições chamando handle_request e envia a resposta.</li>
             </ol>
-            <p>Este projeto pode ser usado como base para criar sistemas de automação residencial ou industrial, permitindo o controle de dispositivos conectados a relés através de uma interface web.</p>
+            <p>Este projeto foi realizado utilizando como base o NodeMCU esp8266 e pode ser usado como base para criar sistemas de automação residencial ou industrial, permitindo o controle de dispositivos conectados a relés através de uma interface web.</p>
         </div>
         <div data-role="footer">
             <h4>Projeto WISP &copy; 2023 Think the Future</h4>
