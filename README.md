@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
    </head>
 <body>
-   <div data-theme="d" data-role="header" class="ui-header ui-bar-d" role="banner">
+   <div data-theme="d" data-role="header" class="ui-header ui-bar-d" role="banner" style="background-color: white;">
     <h1 class="ui-title" role="heading" aria-level="1">
         <a class="ui-link">
-            <img src="https://i.ibb.co/n0FYr7w/WISP-logo-5050png.png" alt="WISP-logo-5050png" border="0" style="display: block; margin-left: auto; margin-right: auto;">
+            <img src="https://i.ibb.co/n0FYr7w/WISP-logo-5050png.png" alt="WISP-logo-5050png" border="0" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;">
         </a>
     </h1>
 </div>
@@ -29,12 +29,12 @@
         </div>
          <div data-role="content">
             <h2>Resumo</h2>
-            <p>O projeto WISP é uma aplicação em Python para microcontroladores ESP8266 que permite controlar relés através de uma interface web. Ele utiliza a biblioteca wifimgr para se conectar à rede Wi-Fi e permite o controle dos pinos de saída do ESP8266 para acionar relés.</p>
+            <p>O projeto WISP é uma aplicação em MicroPython para microcontroladores que permite controlar relés através de uma interface web. Ele utiliza a biblioteca wifimgr para se conectar à rede Wi-Fi e permite o controle dos pinos de saída do microcontrolador para acionar relés.</p>
             <h3>Principais funcionalidades:</h3>
             <ol>
                 <li>Conexão Wi-Fi: A conexão é estabelecida utilizando a biblioteca wifimgr, que gerencia a conexão Wi-Fi do dispositivo.</li>
                                 <li>Gerenciamento de memória: O projeto utiliza gc.collect() e esp.osdebug(None) para otimizar o uso da memória disponível no microcontrolador.</li>
-                <li>Controle dos pinos de saída: O projeto configura os pinos do ESP8266 como saída (output) e permite controlá-los através de requisições HTTP.</li>
+                <li>Controle dos pinos de saída: O projeto configura os pinos do microcontrolador como saída (output) e permite controlá-los através de requisições HTTP.</li>
                 <li>Leitura de arquivos HTML: A função read_html_file lê um arquivo HTML do sistema de arquivos e retorna seu conteúdo.</li>
                 <li>Manipulação de requisições HTTP: A função handle_request processa as requisições recebidas, verifica se algum comando foi enviado para controlar os relés e define a resposta HTTP a ser enviada.</li>
                 <li>Servidor Web: O projeto utiliza um socket para aceitar conexões e responder às requisições HTTP. Um loop principal aceita conexões, processa as requisições chamando handle_request e envia a resposta.</li>
