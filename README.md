@@ -14,25 +14,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
-<style>
-    .center-image {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-</style>
-
    </head>
 <body>
     <div data-theme="d" data-role="header" class="ui-header ui-bar-d" role="banner">
-    <h1 class="ui-title" role="heading" aria-level="1">
-        <a class="ui-link">
-            <img src="https://i.ibb.co/n0FYr7w/WISP-logo-5050png.png" alt="WISP-logo-5050png" border="0" class="center-image">
-        </a>
-    </h1>
-</div>
-
-
+       <h1 class="ui-title" role="heading" aria-level="1"><center><a class="ui-link"><img src="https://i.ibb.co/n0FYr7w/WISP-logo-5050png.png" alt="WISP-logo-5050png" border="0"></a></center>     
+       </h1>
+     </div>
     <div data-role="page" id="main">
         <div data-role="header">
             <h1>Projeto WISP</h1>
