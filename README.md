@@ -37,7 +37,7 @@
             <p>Este projeto pode ser usado como base para criar sistemas de automação residencial ou industrial, permitindo o controle de dispositivos conectados a relés através de uma interface web.</p>
         </div>
         <div data-role="footer">
-            <h4>Projeto WISP &copy; 2023</h4>
+            <h4>Projeto WISP &copy; 2023 Think the Future</h4>
         </div>
     </div>
 </body>
