@@ -19,7 +19,7 @@
    <div data-theme="d" data-role="header" class="ui-header ui-bar-d" role="banner" style="background-color: white;">
     <h1 class="ui-title" role="heading" aria-level="1">
         <a class="ui-link">
-            <img src="https://i.ibb.co/n0FYr7w/WISP-logo-5050png.png" alt="WISP-logo-5050png" border="0" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;">
+            <img src="https://i.ibb.co/cJzG82d/WISP-logo.png" alt="WISP-logo-5050png" border="0" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;">
         </a>
     </h1>
 </div>
